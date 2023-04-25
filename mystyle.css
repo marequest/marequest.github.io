@@ -26,14 +26,25 @@ body > .container-fluid {
   padding-bottom: 3em;
 }
 
+
+.navbar .logo1 {
+  padding-top: 12px;
+}
+.navbar .logotekst {
+  padding: 10px;
+  padding-left: 20px;
+}
 .navbar h3 {
   padding: 0;
-  font-weight: 600;
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
 }
 .navbar small {
   padding: 0;
+  margin: 0;
   color: #344054;
-  font-size: 16px;
+  font-size: 14px;
 }
 .navbar .nav-link{
   font-weight: 600;
@@ -97,7 +108,7 @@ body > .container-fluid {
 }
 .opis p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   color: #344054;
 }
 
@@ -231,7 +242,7 @@ body > .container-fluid {
   padding-left: 1em;
   padding-right: 1em;
   color: #475467;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
 }
 .futer hr {
