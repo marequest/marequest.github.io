@@ -1,0 +1,20 @@
+body {
+  background-color: 1E1E1E;
+}
+
+body > .container-fluid {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.container-fluid > .container div{
+  border: 1px solid black;
+}
+
+.card .hosting {
+  background-color: #E0F2FE;
+}
+
+.card-header {
+  text-align: center;
+}

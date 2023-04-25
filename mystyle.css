@@ -1,0 +1,268 @@
+/*
+MOJE BOJE
+
+blue 100 E0F2FE
+blue 500 2E90FA
+gray 900 101828
+gray 700 344054
+gray 600 475467
+green 500 099250
+green 100 E3FBCC
+purple 100 ECE9FE
+purple 500 6938EF
+
+background F9FAFB
+white FFFFFF
+
+*/
+
+body {
+  background-color: #F9FAFB;
+  font-family: 'Inter', sans-serif;
+}
+
+body > .container-fluid {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.navbar h3 {
+  padding: 0;
+  font-weight: 600;
+}
+.navbar small {
+  padding: 0;
+  color: #344054;
+  font-size: 16px;
+}
+.navbar .nav-link{
+  font-weight: 600;
+  color: #101828;
+  font-size: 16px;
+}
+.navbar .nav-item {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.navbar .btn-dark {
+  background-color: #101828;
+  font-weight: 600;
+  padding: 0.5em 1em 0.5em 1em;
+}
+.navbar .btn-white {
+  font-weight: 600;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+
+.front-page h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.front-page .btn-primary {
+  background-color: #2E90FA;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.front-page .btn-white {
+    padding: 8px 50px 8px 50px;
+
+}
+.front-page .col-sm-6 {
+  padding-right: 2em;
+}
+.front-page .btn {
+  font-weight: 500;
+}
+
+.ponude .card-header {
+  padding: 12px;
+  font-size: 21px;
+  font-weight: 700;
+}
+.ponude .card-body {
+  font-weight: 500;
+}
+.ponude .cena {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 1em 1em 5px 1em;
+}
+
+.opis h2 {
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+.opis p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #344054;
+}
+
+
+.napomena {
+  color: #475467;
+  font-size: 13px;
+}
+
+.tabela .header {
+  color: #FFFFFF;
+  font-weight: 800;
+}
+.tabela .footer {
+  font-weight: 600;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+/*.container div{
+  border: 1px solid black;
+}
+*/
+
+.ponude .card{
+  border-radius: 5%;
+}
+.tabela .card{
+  border-radius: 5%;
+}
+
+.web-hosting .card-header {
+  background-color: #E0F2FE;
+  color: #2E90FA;
+}
+
+.business-hosting .card-header {
+  background-color: #E3FBCC;
+  color: #099250;
+}
+.business-hosting .card-body {
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  background-color: #101828;
+  color: #FFFFFF;
+}
+
+.vps-hosting .card-header {
+  background-color: #ECE9FE;
+  color: #6938EF;
+}
+
+.dedicated-server .card-header {
+  background-color: #101828;
+  color: #FFFFFF;
+}
+
+
+.card-header {
+  text-align: center;
+}
+
+.tabela .header {
+  background-color: #2E90FA;
+}
+
+.tabela .footer {
+  background-color: #F9FAFB;
+}
+
+
+.cene .slika {
+  max-height: 200%;
+  float: left;
+}
+
+.prelazite .slika {
+  max-height: 200%;
+  float: right;
+}
+
+.veliki-tekst {
+  background-color: #FFFFFF;
+  padding: 2em;
+}
+
+.futer {
+  background-color: #101828;
+}
+
+#kontakt-kontenjer {
+  background-color: #FFFFFF;
+  padding: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+#kontakt-kontenjer p{
+  font-size: 12px;
+  color: #475467;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1em
+}
+#kontakt-kontenjer h2{
+  font-size: 32px;
+  color: #101828;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+  text-align: center;
+  margin-bottom: 1em
+}
+#kontakt-kontenjer h5{
+  font-size: 16px;
+  color: #344054;
+  font-weight: 500;
+  padding: 0;
+}
+
+.futer .navbar-brand {
+  color: #FFFFFF;
+}
+.futer .nav-link {
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 16px;
+}
+.futer .nav-sivo {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #475467;
+  font-size: 16px;
+  font-weight: 300;
+}
+.futer hr {
+  color: #475467;
+}
+.futer h3 {
+  font-size: 26px;
+}
+
+div.card-header {
+  border: 0;
+}
+
+div.card {
+  border: 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/*TODO
+
+border radius ne menja i za elemente ispred carda
+zasto ima ogroman pading ispod velikog teksta
+logo i tekst namesti
+sredi ikonice u kontaktirajte nas
+velicine fontova
+
+
+
+
+
+*/
