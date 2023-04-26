@@ -29,6 +29,17 @@ body > .container-fluid {
 /*.container div{
   border: 1px solid black;
 }*/
+.kruzici {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: #E0F2FE;
+  border-radius: 50%;
+  padding-top: 12px;
+}
+.business-hosting .kruzici {
+    background-color: #E3FBCC;
+}
 
 
 .navbar .logo1 {
@@ -302,19 +313,13 @@ div.card {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
+.logo-imgb {
+  filter: invert(53%) sepia(56%) saturate(4201%) hue-rotate(192deg) brightness(99%) contrast(98%);
+}
+.logo-imgg {
+  filter: invert(50%) sepia(90%) saturate(7017%) hue-rotate(146deg) brightness(99%) contrast(93%);
+}
+.logo-imgv {
+  filter: invert(25%) sepia(76%) saturate(4419%) hue-rotate(250deg) brightness(93%) contrast(101%);
+}
 
-
-
-/*TODO
-
-border radius ne menja i za elemente ispred carda
-zasto ima ogroman pading ispod velikog teksta
-logo i tekst namesti
-sredi ikonice u kontaktirajte nas
-velicine fontova
-
-
-
-
-
-*/
