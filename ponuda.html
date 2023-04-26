@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-white navbar-white">
+  <div class="container">
+    <a class="navbar-brand">
+      <div class="container" style="min-width: 300px;">
+        <div class="row">
+          <div class="logo1" style="width: 20%">
+            <img src="img/logouboji.svg" style="width: 52px;" class="center">
+          </div>
+          <div class="logotekst" style="width: 80%">
+            <h3>CyberWebb</h3>
+            <small>Najkvalitetniji hosting u Srbiji</small>
+          </div>
+        </div>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active">Ponuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="web-hosting.html">Web Hosting</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="business-hosting.html">Business Hosting</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">O nama</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-white" type="button">Log in</button>
+        <button class="btn btn-dark" type="button">Sign up</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid front-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Najkvalitetniji hosting u Srbiji.</h1>
+        <br>
+        <p>Mi smo CyperWebb, hosting provajder iz Srbije koji vam nudi usluge po svetskim standardima na domaćem tržištu.</p>
+        <br>
+        <div>
+          <button type="button" class="btn btn-primary">Poruci</button>
+          <button type="button" class="btn btn-white">Svi Paketi</button>
+        </div>
+        <br>
+      </div>
+      <div class="col-sm-6">
+        <img src="img/slika3.tiff" style="max-width: 100%;">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container ponude">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card web-hosting">
+          <div class="card-header">
+            Web Hosting
+          </div>
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>4GB prostora</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>1 CPU core</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>1GB RAM</p>  
+                </div>
+              </div>
+            </div>
+            <div class="container cena">
+              od 2400 rsd/mes
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card business-hosting">
+          <div class="card-header ">
+            Business Hosting
+          </div>
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px; filter: invert(100%);">
+                </div>
+                <div class="col-10">
+                  <p>25GB prostora</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px; filter: invert(100%);">
+                </div>
+                <div class="col-10">
+                  <p>2 CPU core</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px; filter: invert(100%);">
+                </div>
+                <div class="col-10">
+                  <p>4GB RAM</p>  
+                </div>
+              </div>
+            </div>
+            <div class="container cena">
+              od 10000 rsd/mes
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card vps-hosting">
+          <div class="card-header ">
+            VPS Hosting
+          </div>
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>25GB prostora</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>2CPU core</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>4GB RAM</p>  
+                </div>
+              </div>
+            </div>
+            <div class="container cena">
+              od 13000 rsd/mes
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card dedicated-server">
+          <div class="card-header ">
+            Dedicated Server
+          </div>
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>1TB prostora</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>8 CPU core</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <img src="img/check.svg" style="height: 16px">
+                </div>
+                <div class="col-10">
+                  <p>16GB RAM</p>  
+                </div>
+              </div>
+            </div>
+            <div class="container cena">
+              od 40000 rsd/mes
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container napomena">
+    <div>
+      <p>Svi paketi obuhvataju servere koji koriste SSD diskove i besplatan SSL sertifikat!</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid tabela">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-4">
+        <div class="card">
+          <div class="card-header header">
+            .com
+          </div>
+          <div class="card-header footer">
+            1400 rsd
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-4">
+        <div class="card">
+          <div class="card-header header">
+            .net
+          </div>
+          <div class="card-header footer">
+            1500 rsd
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-4">
+        <div class="card">
+          <div class="card-header header">
+            .info
+          </div>
+          <div class="card-header footer">
+            1800 rsd
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-4">
+        <div class="card">
+          <div class="card-header header">
+            .rs
+          </div>
+          <div class="card-header footer">
+            2300 rsd
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-4">
+        <div class="card">
+          <div class="card-header header">
+            .co.rs
+          </div>
+          <div class="card-header footer">
+            850 rsd
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-4">
+        <div class="card">
+          <div class="card-header header">
+            .in.rs
+          </div>
+          <div class="card-header footer">
+            500 rsd
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container napomena">
+    <div>
+      <p>Cene se odnose na godisnje prijave. (izvršiti proveru dostupnosti željenog domena)</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid cene opis">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 veliki-tekst">
+        <h2>Cene</h2>
+        <p>
+        Cene naših usluga prilagodili smo uslovima tržišta i slobodno tvrdimo da nudimo najbolja hosting rešenja po najpovoljnijim uslovima na teritoriji Srbije.</p>
+        <p>Registracije domena su, pored povoljnih usluga hosting ponude usklađene sa nabavnim cenama, tako da su troškovi Vašeg nastupa na internetu svedeni na minimum.</p>
+        <p>Stabilno i sigurno hosting rešenje predstavlja potporu u osvajanju internet tržišta. Uz našu podršku na tom putu Vama preostaje da se fokusirate na ciljeve Vašeg biznisa.</p>
+        <p>Naš cilj su zadovoljni korisnici hostinga u Srbiji. S tim u vezi, radujemo se uspešnoj i kvalitetnoj saradnji.</p>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/svgslika1.svg" class="slika">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid prelazite opis">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/svgslika2.svg" class="slika">
+      </div>
+      <div class="col-sm-8 veliki-tekst" style="margin-top: 40px; height: 330px;">
+        <h2>Prelazite kod nas?</h2>
+        <p>Nudimo Vam besplatnu migraciju! Dovoljno je da kontaktirate naše operatere podrške i mi ćemo obaviti sva potrebna prebacivanja umesto Vas.</p>
+        <p>Prebacićemo sve fajlove, baze podataka, email naloge kao i ostalo što poželite. Migracija se obavlja brzo i Vaš sajt ni u jednom trenutku neće biti nedostupan za vreme prebacivanja na naše servere.</p>
+        <p>Izaberite neki od web hosting ili reseller paketa. Ukoliko smatrate da Vam je potrebno više resursa, nudimo Vam i VPS, Cloud i dedicated (namenske) servere.</p>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container" id="kontakt-kontenjer">
+    <div class="container" id="kontakt-tekst">
+      <div>
+        <p>Imate dilemu ili pitanje pre kupovine?</p>
+        <h2>Kontaktirajte nas</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-3">
+          <div class="row">
+            <div class="col-2">
+              <div class=" center">
+                <img src="img/phone.svg" style="height: 32px'">
+              </div>
+            </div>
+            <div class="col-9">
+              <h5>Pozovite nas</h5>
+              <h5>+381601234567</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="row">
+            <div class="col-2">
+              <img src="img/check.svg" style="height: 32px">
+            </div>
+            <div class="col-9">
+              <h5>Ponedeljak - Petak</h5>
+              <h5>09-17h</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="row">
+            <div class="col-2">
+              <img src="img/mail.svg" style="height: 32px;">
+            </div>
+            <div class="col-9">
+              <h5>Email adresa</h5>
+              <h5>kontakt@cyberwebb.rs</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid futer">
+  <div class="container">
+    <div class="row">
+      <a class="navbar-brand">
+      <div class="container" style="width: 350px;">
+        <div class="row">
+          <div class="c" style="width: 32%">
+            <img src="img/logocrnobeli.svg" style="width: 40px; float:right;" class="center">
+          </div>
+          <div class="c center" style="width: 68%; padding: 0; padding-top: 3px;" id="logo-footer">
+            <h3>CyberWebb</h3>
+          </div>
+        </div>
+      </div>
+    </a>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="ponuda.html">Ponuda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="web-hosting.html">Web Hosting</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="business-hosting.html">Business Hosting</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">O Nama</a>
+      </li>
+    </ul>
+    <hr>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <p class="nav-sivo">CyberWebb - 12 godina sa vama!</p>
+      </li>
+      <li class="nav-item">
+        <p class="nav-sivo">Maticni broj: 0012345</p>
+      </li>
+      <li class="nav-item">
+        <p class="nav-sivo">PIB: 01234567</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
