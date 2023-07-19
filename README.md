@@ -2,9 +2,9 @@
 
 This website is done by applying smart design I learnt in classes.
 
-Design is done in **Figma** and after redone in HTML.
+Design is done in **Figma** and after redone in HTML using Bootstrap.
 
-[Link to website](https://marequest.github.io./)
+[https://marequest.github.io./](https://marequest.github.io./)
 
 > Racunarski fakultet, computer science
 
